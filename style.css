@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&display=swap');
+
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+.body {
+  background-color: hsl(0, 0%, 100%);
+  
+}
+
+.container {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  border: solid 1px green; /*УДАЛИТЬ*/ 
+}
+
+.container-wrapper {
+  margin: 2rem; /*Отступы отрегулировать*/
+  display: grid; 
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; 
+}
+
+.container-info {
+  border: solid 1px red; /*УДАЛИТЬ*/
+  background-color: aqua; /*УДАЛИТЬ*/
+}
+
+.container-info h2 {
+  color: hsl(300, 43%, 22%);
+  font-family: League Spartan, sans-serif;
+  font-weight: 700;
+  /* padding-top: 20px; */
+}
+
+.container-info p {
+  color: hsl(303, 10%, 53%);
+  font-family: League Spartan, sans-serif;
+  font-weight: 400;
+  /* padding-top: 20px; */
+}
+
+
+.container-stars {
+  border: solid 1px green; /*УДАЛИТЬ*/
+  background-color: rosybrown; /*УДАЛИТЬ*/
+}
+
+.container-stars-rewiews {
+  display: flex;
+  align-items: center;
+}
+
+.container-stars-report {
+  display: flex;
+  align-items: center;
+}
+
+.container-stars-besttech {
+  display: flex;
+  align-items: center;
+}
+
+
+.container-reviews {
+  grid-column: span 2;
+  border: solid 1px blue; /*УДАЛИТЬ*/
+  background-color: hotpink; /*УДАЛИТЬ*/
+}
+
