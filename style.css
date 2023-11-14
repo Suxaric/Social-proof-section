@@ -7,19 +7,19 @@
 
 .body {
   background-color: hsl(0, 0%, 100%);
-  
+    
 }
 
 .container {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
   border: solid 1px green; /*УДАЛИТЬ*/ 
 }
 
 .container-wrapper {
-  margin: 2rem; /*Отступы отрегулировать*/
+  max-width: 960px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
   display: grid; 
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr; 
@@ -30,39 +30,104 @@
   background-color: aqua; /*УДАЛИТЬ*/
 }
 
-.container-info h2 {
+.container-info h1 {
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
   font-weight: 700;
-  /* padding-top: 20px; */
+  font-size: 55px;
 }
 
 .container-info p {
   color: hsl(303, 10%, 53%);
   font-family: League Spartan, sans-serif;
   font-weight: 400;
-  /* padding-top: 20px; */
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  line-height: 22px;
+  
 }
-
 
 .container-stars {
   border: solid 1px green; /*УДАЛИТЬ*/
-  background-color: rosybrown; /*УДАЛИТЬ*/
+  
 }
 
 .container-stars-rewiews {
+  width: 400px;
   display: flex;
   align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border: solid 2px hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.container-stars-rewiews img {
+  padding-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-stars-rewiews p {
+  padding-left: 30px;
+  color: hsl(300, 43%, 22%);
+  font-family: League Spartan, sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-stars-report {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
   display: flex;
   align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border: solid 2px hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.container-stars-report img {
+  padding-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-stars-report p {
+  padding-left: 30px;
+  color: hsl(300, 43%, 22%);
+  font-family: League Spartan, sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-stars-besttech {
+  margin-right: 0;
+  margin-left: auto;
+  width: 400px;
   display: flex;
   align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border: solid 2px hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.container-stars-besttech img {
+  padding-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-stars-besttech p {
+  padding-left: 30px;
+  color: hsl(300, 43%, 22%);
+  font-family: League Spartan, sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 
