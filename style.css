@@ -7,12 +7,15 @@
 
 .body {
   background-color: hsl(0, 0%, 100%);
-    
 }
 
 .container {
   height: 100vh;
-  border: solid 1px green; /*УДАЛИТЬ*/ 
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position:
+    0px 0px,
+    right bottom;
 }
 
 .container-wrapper {
@@ -24,10 +27,6 @@
   display: grid; 
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr; 
-}
-
-.container-info {
-  border: solid 1px red; /*УДАЛИТЬ*/
 }
 
 .container-info h1 {
@@ -46,11 +45,6 @@
   padding-right: 30px;
   padding-bottom: 20px;
   line-height: 22px;
-  
-}
-
-.container-stars {
-  border: solid 1px green; /*УДАЛИТЬ*/
   
 }
 
