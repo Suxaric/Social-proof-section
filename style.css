@@ -11,12 +11,13 @@
 }
 
 .container {
+  height: 100vh;
   border: solid 1px green; /*УДАЛИТЬ*/ 
 }
 
 .container-wrapper {
   max-width: 960px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
@@ -27,7 +28,6 @@
 
 .container-info {
   border: solid 1px red; /*УДАЛИТЬ*/
-  background-color: aqua; /*УДАЛИТЬ*/
 }
 
 .container-info h1 {
@@ -56,6 +56,7 @@
 
 .container-stars-rewiews {
   width: 400px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   background-color: hsl(300, 24%, 96%);
@@ -80,6 +81,7 @@
 
 .container-stars-report {
   margin-left: auto;
+  margin-top: 15px;
   margin-right: auto;
   width: 400px;
   display: flex;
@@ -105,8 +107,9 @@
 }
 
 .container-stars-besttech {
-  margin-right: 0;
   margin-left: auto;
+  margin-top: 15px;
+  margin-right: 0;
   width: 400px;
   display: flex;
   align-items: center;
@@ -132,8 +135,169 @@
 
 
 .container-reviews {
+  margin-top: 30px;
   grid-column: span 2;
   border: solid 1px blue; /*УДАЛИТЬ*/
-  background-color: hotpink; /*УДАЛИТЬ*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+
+}
+
+.container-reviews-colton {
+  height: fit-content;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.container-reviews-colton img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid hsl(300, 43%, 22%);
+}
+
+.container-reviews-colton-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container-reviews-colton-name {
+  padding-left: 20px;
+}
+
+.container-reviews-colton-name h6 {
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-reviews-colton-name p {
+  padding-top: 3px;
+  color: hsl(333, 80%, 67%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container-reviews-colton-text {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.container-reviews-irene {
+  margin-top: 20px;
+  height: fit-content;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.container-reviews-irene img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid hsl(300, 43%, 22%);
+}
+
+.container-reviews-irene-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container-reviews-irene-name {
+  padding-left: 20px;
+}
+
+.container-reviews-irene-name h6 {
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-reviews-irene-name p {
+  padding-top: 3px;
+  color: hsl(333, 80%, 67%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container-reviews-irene-text {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+.container-reviews-anne {
+  margin-top: 40px;
+  height: fit-content;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.container-reviews-anne img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid hsl(300, 43%, 22%);
+}
+
+.container-reviews-anne-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container-reviews-anne-name {
+  padding-left: 20px;
+}
+
+.container-reviews-anne-name h6 {
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-reviews-anne-name p {
+  padding-top: 3px;
+  color: hsl(333, 80%, 67%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container-reviews-anne-text {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: hsl(300, 24%, 96%);
+  font-family: League Spartan, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
