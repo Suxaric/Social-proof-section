@@ -14,13 +14,12 @@
   background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
   background-position:
-    0px 0px,
+    left top,
     right bottom;
 }
 
 .container-wrapper {
   max-width: 960px;
-  margin-top: 100px;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
@@ -29,6 +28,9 @@
   grid-template-columns: 1fr 1fr; 
 }
 
+.container-info {
+  margin-top: 100px;
+}
 .container-info h1 {
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
@@ -45,17 +47,24 @@
   padding-right: 30px;
   padding-bottom: 20px;
   line-height: 22px;
-  
+}
+
+.container-stars {
+  margin-top: 100px;
 }
 
 .container-stars-rewiews {
   width: 400px;
   margin-top: 40px;
-  display: flex;
-  align-items: center;
   background-color: hsl(300, 24%, 96%);
   border: solid 2px hsl(0, 0%, 100%);
   border-radius: 10px;
+}
+
+.container-stars-rewiews-space {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .container-stars-rewiews img {
@@ -65,7 +74,7 @@
 }
 
 .container-stars-rewiews p {
-  padding-left: 30px;
+  padding-left: 25px;
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
   font-weight: 700;
@@ -78,11 +87,15 @@
   margin-top: 15px;
   margin-right: auto;
   width: 400px;
-  display: flex;
-  align-items: center;
   background-color: hsl(300, 24%, 96%);
   border: solid 2px hsl(0, 0%, 100%);
   border-radius: 10px;
+}
+
+.container-stars-report-space {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .container-stars-report img {
@@ -92,7 +105,7 @@
 }
 
 .container-stars-report p {
-  padding-left: 30px;
+  padding-left: 25px;
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
   font-weight: 700;
@@ -105,11 +118,15 @@
   margin-top: 15px;
   margin-right: 0;
   width: 400px;
-  display: flex;
-  align-items: center;
   background-color: hsl(300, 24%, 96%);
   border: solid 2px hsl(0, 0%, 100%);
   border-radius: 10px;
+}
+
+.container-stars-besttech-space {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .container-stars-besttech img {
@@ -119,7 +136,7 @@
 }
 
 .container-stars-besttech p {
-  padding-left: 30px;
+  padding-left: 25px;
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
   font-weight: 700;
@@ -131,7 +148,6 @@
 .container-reviews {
   margin-top: 30px;
   grid-column: span 2;
-  border: solid 1px blue; /*УДАЛИТЬ*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
