@@ -31,6 +31,7 @@
 .container-info {
   margin-top: 100px;
 }
+
 .container-info h1 {
   color: hsl(300, 43%, 22%);
   font-family: League Spartan, sans-serif;
@@ -57,7 +58,7 @@
   width: 400px;
   margin-top: 40px;
   background-color: hsl(300, 24%, 96%);
-  border: solid 2px hsl(0, 0%, 100%);
+  border: solid 2px hsl(300, 24%, 96%);
   border-radius: 10px;
 }
 
@@ -88,7 +89,7 @@
   margin-right: auto;
   width: 400px;
   background-color: hsl(300, 24%, 96%);
-  border: solid 2px hsl(0, 0%, 100%);
+  border: solid 2px hsl(300, 24%, 96%);
   border-radius: 10px;
 }
 
@@ -119,7 +120,7 @@
   margin-right: 0;
   width: 400px;
   background-color: hsl(300, 24%, 96%);
-  border: solid 2px hsl(0, 0%, 100%);
+  border: solid 2px hsl(300, 24%, 96%);
   border-radius: 10px;
 }
 
@@ -144,7 +145,6 @@
   margin-bottom: 15px;
 }
 
-
 .container-reviews {
   margin-top: 30px;
   grid-column: span 2;
@@ -152,7 +152,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
-
 }
 
 .container-reviews-colton {
@@ -258,7 +257,6 @@
   line-height: 20px;
 }
 
-
 .container-reviews-anne {
   margin-top: 40px;
   height: fit-content;
@@ -311,3 +309,144 @@
   line-height: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 100%;
+    background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position:
+      left top,
+      right bottom;
+  }
+  
+  .container-wrapper {
+    display: contents; 
+  }
+
+  .container-info {
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    width: 330px;
+  }
+  
+  .container-info h1 {
+   text-align: center;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 40px;
+  }
+  
+  .container-info p {
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .container-stars {
+    margin-top: 30px;
+  }
+ 
+  .container-stars-rewiews {
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+  
+  .container-stars-rewiews-space {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+   }
+  
+  .container-stars-rewiews img {
+    padding-left: 8px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .container-stars-rewiews p {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container-stars-report {
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+  
+  .container-stars-report-space {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  .container-stars-report img {
+    padding-left: 8px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .container-stars-report p {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container-stars-besttech {
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+  
+  .container-stars-besttech-space {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  .container-stars-besttech img {
+    padding-left: 8px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .container-stars-besttech p {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container-reviews {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .container-reviews {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .container-reviews-irene {
+    margin-top: 5px;
+  }
+
+  .container-reviews-anne {
+    margin-top: 10px;
+  }
+
+}
