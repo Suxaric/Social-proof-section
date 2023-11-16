@@ -62,7 +62,7 @@
   border-radius: 10px;
 }
 
-.container-stars-rewiews-space {
+.container-stars-rewiews-space-main {
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@
   border-radius: 10px;
 }
 
-.container-stars-report-space {
+.container-stars-report-space-main {
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -124,7 +124,7 @@
   border-radius: 10px;
 }
 
-.container-stars-besttech-space {
+.container-stars-besttech-space-main {
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -355,16 +355,23 @@
     width: 330px;
   }
   
-  .container-stars-rewiews-space {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+  .container-stars-rewiews-space-main {
+    display: grid;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px;
     align-items: center;
+    justify-content: center;
+   }
+
+   .container-stars-rewiews-space {
+    margin-left: auto; 
+    margin-right: auto;
    }
   
   .container-stars-rewiews img {
-    padding-left: 8px;
-    margin-left: auto;
+    padding-left: 4px;
+    padding-right: 4px;
     margin-top: 10px;
     margin-bottom: 0px;
   }
@@ -381,16 +388,23 @@
     width: 330px;
   }
   
-  .container-stars-report-space {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+  .container-stars-report-space-main {
+    display: grid;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px;
     align-items: center;
-  }
+    justify-content: center;
+   }
+
+   .container-stars-report-space {
+    margin-left: auto; 
+    margin-right: auto;
+   }
   
   .container-stars-report img {
-    padding-left: 8px;
-    margin-left: auto;
+    padding-left: 4px;
+    padding-right: 4px;
     margin-top: 10px;
     margin-bottom: 0px;
   }
@@ -407,16 +421,23 @@
     width: 330px;
   }
   
-  .container-stars-besttech-space {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+  .container-stars-besttech-space-main {
+    display: grid;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px;
     align-items: center;
-  }
+    justify-content: center;
+   }
+
+   .container-stars-besttech-space {
+    margin-left: auto; 
+    margin-right: auto;
+   }
   
   .container-stars-besttech img {
-    padding-left: 8px;
-    margin-left: auto;
+    padding-left: 4px;
+    padding-right: 4px;
     margin-top: 10px;
     margin-bottom: 0px;
   }
@@ -446,7 +467,8 @@
   }
 
   .container-reviews-anne {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
 }
