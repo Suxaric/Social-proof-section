@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section
 
-:wave: Hi all!
+### :wave: Hi all!
 > This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 ### The challenge :ballot_box_with_check:
